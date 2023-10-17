@@ -1,0 +1,153 @@
+nav {
+  background-color: rgb(43, 38, 38);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  display: inline-block;
+  padding: 1rem;
+  justify-content: center;
+}
+nav ul {
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+nav a {
+  color: white;
+  padding: 1rem;
+}
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+Nav h1 {
+  font-weight: 200;
+  font-size: large;
+  padding-top: 1rem;
+  color: white;
+}
+body {
+  margin: 0;
+  background-color: rgb(43, 90, 74);
+}
+button {
+  border-radius: 2rem;
+}
+.picture {
+  height: 2px;
+  width: 2px;
+  display: inline-block;
+}
+button:hover {
+  color: black;
+}
+.ser {
+  align-content: center;
+  padding-left: 40rem;
+}
+.one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content:space-around;
+  background-color: aliceblue;
+}
+.p1{
+margin: 0%;
+flex-direction: column;
+
+}
+.p2{
+  margin:0%;
+}
+.p3{
+  margin-top: 12%;
+}
+.four{
+  font-size:x-large;
+}
+.three{
+  font-size: x-large;
+}
+.picture{
+  height: 15rem;
+  width: 15rem;
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  padding-top: 1rem;
+}
+h5{
+  font-size:x-large;
+  padding-left: 35%;
+}
+h6{
+  font-size: large;
+}
+.turn{
+  display: flex;
+  justify-content:space-between;
+}
+.bar{
+  margin: 4%;
+}
+.clients{
+  justify-content:center;
+  padding-left: 45%;
+}
+.me{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  justify-content: center;
+  margin-left: 45%;
+}
+.name{
+  padding-left: 47%;
+}
+.comments{
+  text-align: center;
+  
+}
+.nah{
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  border-radius: 2rem;
+  font-weight: bolder;
+}
+.close{
+  justify-content: center;
+  position:absolute;
+  left:50%
+}
+
+article{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem;
+}
+
+.we{
+  height: 15rem;
+  width: 15rem;
+}
+.you{
+background-color: aliceblue;
+}
+.desk{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: aliceblue;
+}
